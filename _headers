@@ -1,0 +1,14 @@
+# Gzip된 JS 파일
+/Build/*.js.gz
+  Content-Encoding: gzip
+  Content-Type: application/javascript
+
+# Gzip된 WebAssembly 파일
+/Build/*.wasm.gz
+  Content-Encoding: gzip
+  Content-Type: application/wasm
+
+# Gzip된 data 파일
+/Build/*.data.gz
+  Content-Encoding: gzip
+  Content-Type: application/octet-stream
